@@ -7,4 +7,5 @@ allure-results
 *.iml
 *.pdf
 *.csv
+.allure
 
