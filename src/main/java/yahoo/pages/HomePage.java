@@ -24,6 +24,7 @@ public class HomePage {
                 .collect(Collectors.toList());
 
         WebDriverRunner.getWebDriver().manage().timeouts().pageLoadTimeout(seconds, TimeUnit.SECONDS);
+
         for (String link : links) {
            try {
                 ExtendReporter.logToAllure("Open " + link);
